@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    /> 
+    <title>Portfolio</title>
+  </head>
+  <body class="dark">
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img 
+            id="toggle-icon" 
+            src="assets/icons/moon.svg" 
+            alt="icon theme" class="toggle-theme__icon"
+            />
+          <p id="toggle-text" class="toggle-theme__text">Dark Mode </p>
+        </div>
+      </div>
+      <div id="flags" class="flags">
+        <div class="flgas__item" data-languaje="es">
+          <img src="assets/images/cr.svg" alt="" class="flags__img">
+        </div>
+        <div class="flgas__item" data-languaje="en">
+          <img src="assets/images/gb.svg" alt="" class="flags__img">
+        </div>
+      </div>
+     <div id="toggle-colors" class="colors">
+      <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+      <div data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--green"></div>
+      <div data-color="hsl(276, 84%, 56%)" class="colors__item colors__item--purple"></div>
+      <div data-color="hsl(46, 84%, 56%)" class="colors__item colors__item--orange"></div>
+    </div>      
+    </header>
+    <main class="main">
+      <section class="colum colum--left">
+        <!--PROFILE CARD-->
+        <article class="card card--profile">
+          <div class="card__image-container">
+            <img src="/assets/images/Alison.jpeg" alt="">
+          </div>  
+          <div class="card__header">
+            <h2 class="card__title no-margin">Alison Campos</h2>
+            <p class="card__subtitle" data-section="profile" data-value="rol" >Bussiness Informatic</p>
+          </div>
+          <div class="card__body">
+            <div class="card__link">
+              <i class="fas fa-envelope icon"></i>
+              <a href="mailto:alisoncamces@gmail.com">alisoncamces@gmail.com </a>
+            </div>
+            <div class="card__link">
+              <i class="fas fa-phone-alt icon"></i>
+              <a href="tel:63056635">+506 63056635</a>
+            </div>
+            <p class="card__text" data-section="profile" data-value="description">
+              Professional developer, passionate about web or desktop development and database management. Willing to put into practice all the skills acquired throughout my business computing career, as well as eager to learn new areas and techniques to expand knowledge
+            </p>
+          </div>       
+        </article>
+         <!--Experience CARD-->
+        <article class="card card--experience">
+          <h2 class="card__title">Experiences</h2>
+          <div class="experience">
+            <img src="assets/images/logo.png" alt="logo" class="experience__image">
+            <div class="experience__info">
+              <p class="experience__time" data-section="experience" data-value="firts-job-date"> December 2022 - June 2023</p>
+              <h3 class="experience__job" data-section="experience" data-value="firts-job-title"> WEB DEVELOPMENT  WITH WORDPRESS</h3>
+              <P class="experience__description" data-section="experience" data-value="firts-job-description"> I offered my services as a Web Developer in the Growth Hacking company, where my role was based
+                on the creation of web pages through the tools that WordPress provides us.</P>
+            </div>
+          </div>
+          <div class="experience">
+            <img src="assets/images/logo.png" alt="logo" class="experience__image">
+            <div class="experience__info">
+              <p class="experience__time" data-section="experience" data-value="second-job-date"> July 2023 - December 2023</p>
+              <h3 class="experience__job" data-section="experience" data-value="secod-job-title"> CIBERSECURITY</h3>
+              <P class="experience__description"data-section="experience" data-value="second-job-description">  Used the Group Policy Management Console (GPMC) to manage and configure policies on objects.
+                Used the tool called Tenable One for the correct management of vulnerabilities and the
+                implementation of user and team privacy policies.</P>
+            </div>
+          </div>
+        </article>
+        <!-- Columna Hobbies-->
+        <article class="card card--hobbies">
+          <h2 class="card__title">Hobbies</h2>
+          <div class="card__image-container">
+            <img src="assets/images/hobbie.jpg" alt="man">
+          </div>
+          <h3 class="hobbie__title">Biking</h3>
+          <p class="card__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi eos minima, temporibus aliquid at nam quod itaque in est magnam error recusandae praesentium sint veniam laborum impedit? Adipisci, impedit error.</p>
+          <div class="card__image-container">
+            <img src="assets/images/hobbie.jpg" alt="man">
+          </div>
+          <h3 class="hobbie__title">Biking</h3>
+          <p class="card__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi eos minima, temporibus aliquid at nam quod itaque in est magnam error recusandae praesentium sint veniam laborum impedit? Adipisci, impedit error.</p>
+        </article>
+      </section>
+      <!-- seccion de la derecha-->
+      <section class="column column--right">
+        <!-- Columna habilidades-->
+        <article class="card">
+          <h2 class="card__title">Programming Languajes</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start--level">0</span>
+              <span class="skills__start--level">1</span>
+            </div>
+              <div class="skills__item">
+                <p class="skills__tech">Java</p>
+                <div class="skills__bar skills__bar--40"></div>
+              </div>
+              <div class="skills__item">
+                <p class="skills__tech">Javascript</p>
+                <div class="skills__bar skills__bar--40"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">C#</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Python</p>
+              <div class="skills__bar skills__bar--20"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">Web Developmet</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start--level">0</span>
+              <span class="skills__start--level">1</span>
+            </div>
+              <div class="skills__item">
+                <p class="skills__tech">HTML</p>
+                <div class="skills__bar skills__bar--80"></div>
+              </div>
+              <div class="skills__item">
+                <p class="skills__tech">CSS</p>
+                <div class="skills__bar skills__bar--60"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">React</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">Frameworks</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start--level">0</span>
+              <span class="skills__start--level">1</span>
+            </div>
+              <div class="skills__item">
+                <p class="skills__tech">ASP .Net</p>
+                <div class="skills__bar skills__bar--40"></div>
+              </div>
+              <div class="skills__item">
+                <p class="skills__tech">Bootstrap</p>
+                <div class="skills__bar skills__bar--80"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Django</p>
+              <div class="skills__bar skills__bar--20"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Entity Framework</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">Web Services</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start--level">0</span>
+              <span class="skills__start--level">1</span>
+            </div>
+              <div class="skills__item">
+                <p class="skills__tech">APIs HTTP/ REST</p>
+                <div class="skills__bar skills__bar--70"></div>
+              </div>
+              <div class="skills__item">
+                <p class="skills__tech"> Web Service APIs</p>
+                <div class="skills__bar skills__bar--70"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">Database</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start--level">0</span>
+              <span class="skills__start--level">1</span>
+            </div>
+              <div class="skills__item">
+                <p class="skills__tech">MYSQL</p>
+                <div class="skills__bar skills__bar--30"></div>
+              </div>
+              <div class="skills__item">
+                <p class="skills__tech">Oracle Database</p>
+                <div class="skills__bar skills__bar--40"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Microsoft SQL server</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech"> Heidi SQL</p>
+             <div class="skills__bar skills__bar--30"></div>
+            </div>
+         </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">Architectures</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start--level">0</span>
+              <span class="skills__start--level">1</span>
+            </div>
+              <div class="skills__item">
+                <p class="skills__tech">MVC</p>
+                <div class="skills__bar skills__bar--90"></div>
+              </div>
+              <div class="skills__item">
+                <p class="skills__tech">NLayer</p>
+                <div class="skills__bar skills__bar--10"></div>
+            </div>
+         </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">Version Control</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start--level">0</span>
+              <span class="skills__start--level">1</span>
+            </div>
+              <div class="skills__item">
+                <p class="skills__tech">GitHub</p>
+                <div class="skills__bar skills__bar--90"></div>
+              </div>
+         </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">Tools</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start--level">0</span>
+              <span class="skills__start--level">1</span>
+            </div>
+              <div class="skills__item">
+                <p class="skills__tech">Group Policy Management Console</p>
+                <div class="skills__bar skills__bar--40"></div>
+              </div>
+              <div class="skills__item">
+                <p class="skills__tech">Cisco Packet Tracer</p>
+                <div class="skills__bar skills__bar--50"></div>
+              </div>
+              <div class="skills__item">
+                <p class="skills__tech">Tenable One</p>
+                <div class="skills__bar skills__bar--30"></div>
+              </div>
+              <div class="skills__item">
+                <p class="skills__tech">WordPress</p>
+                <div class="skills__bar skills__bar--30"></div>
+              </div>
+         </div>
+        </article>
+        <article class="card card__project">
+          <div class="card__image-container">
+            <img src="assets/images/pagina-tabulator.png" alt="Landing Page" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#Javascript</span>
+              <span class="project__tag">#Tabulator</span>
+            </div>
+            <h2 class="card__title" data-section="projects" data-value="first-project-title">Student Management Page</h2>
+            <p class="card__text" data-section="projects" data-value="first-project-description">"The student management page I developed simplifies adding, deleting, and updating new students to the system. In addition, it offers visualization of students using a pivot table created with the JavaScript library called Tabulator. It also includes a search function that allows you to find students easily using a filter.</p>
+            <div class="buttons">
+              <a href="#" class="button button--primary">Demo</a>
+              <a href="#" class="button button--ghost" data-section="projects" data-value="first-project-button2">Code</a>
+
+            </div>
+          </div>
+        </article>
+        <article class="card card__project">
+          <div class="card__image-container">
+            <img src="assets/images/Lista de Tareas.png" alt="Landing Page" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#Javascript</span>
+              <span class="project__tag">#React</span>
+              <span class="project__tag">#Responsive</span>
+            </div>
+            <h2 class="card__title" data-section="projects" data-value="second-project-title">Task List Page</h2>
+            <p class="card__text" data-section="projects" data-value="second-project-description">"This page allows you to add pending tasks to a list, as well as mark those that have already been done as completed or delete them.</p>
+            <div class="buttons">
+              <a href="#" class="button button--primary">Demo</a>
+              <a href="#" class="button button--ghost" data-section="projects" data-value="second-project-button2">Code</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card__project">
+          <div class="card__image-container">
+            <img src="assets/images/GestionContactos.png" alt="Landing Page" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#C</span>
+              <span class="project__tag">#ASP NetCore</span>
+              <span class="project__tag">#CSHTML</span>
+            </div>
+            <h2 class="card__title" data-section="projects" data-value="third-project-title">Contact Management Page</h2>
+            <p class="card__text" data-section="projects" data-value="third-project-description">"This application allows for effective contact management by allowing the inclusion of new contacts, updating information if necessary, deleting unnecessary contacts and finally viewing the complete list of all of them.</p>
+            <div class="buttons">
+              <a href="#" class="button button--primary">Demo</a>
+              <a href="#" class="button button--ghost" data-section="projects" data-value="third-project-button2">Code</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card__project">
+          <div class="card__image-container">
+            <img src="assets/images/gestioVehiculos.png" alt="Landing Page" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#C</span>
+              <span class="project__tag">#ASP NetCore</span>
+              <span class="project__tag">#Entity Framework</span>
+              <span class="project__tag">#React</span>
+            </div>
+            <h2 class="card__title" data-section="projects" data-value="four-project-title">Vehicle Management Page</h2>
+            <p class="card__text"  data-section="projects" data-value="four-project-description">"This application allows for effective contact management by allowing the inclusion of new vehicles, updating information if necessary, deleting unnecessary vehicles and finally viewing the complete list of all of them.</p>
+            <div class="buttons">
+              <a href="#" class="button button--primary">Demo</a>
+              <a href="#" class="button button--ghost" data-section="projects" data-value="four-project-button2">Code</a>
+            </div>
+          </div>
+        </article>
+      </section>  
+    </main>
+    <h1 class="title">Mi Portfolio</h1> 
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

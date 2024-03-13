@@ -1,0 +1,34 @@
+{
+    "profile":{
+        "rol": "Informatica Empresarial",
+        "description": "Desarrollador profesional, apasionado por el desarrollo web o de escritorio y la gestión de bases de datos. Dispuesto a poner en práctica todas las habilidades adquiridas a lo largo de mi carrera informática empresarial, así como Con ganas de aprender nuevas áreas y técnicas para ampliar conocimientos."
+    },
+    "experience":{
+        "firts-job-title": "Desarrolladora Web con WordPress",
+        "firts-job-date": "Deciembre 2022 - Junio 2023",
+        "firts-job-description": "Ofrecí mis servicios como Desarrollador Web en la empresa Growth Hacking, donde se basó mi rol sobre la creación de páginas web a través de las herramientas que nos proporciona WordPress.",
+
+        "secod-job-title": "Ciberseguridad",
+        "second-job-date": "Julio 2023 - Deciembre 2023",
+        "second-job-description": "Usó de la Consola de administración de políticas de grupo (GPMC) para administrar y configurar políticas en objetos. Uso de la herramienta denominada Tenable One para la correcta gestión de vulnerabilidades y la implementación de políticas de privacidad de usuarios y equipos."
+    },
+    "projects":{
+        "first-project-title":"Pagina de Gestión Estudiantil",
+        "first-project-description":"La página de gestión de estudiantes que desarrollé simplifica la adición, eliminación y actualización de nuevos estudiantes al sistema. Además, ofrece visualización de los estudiantes mediante una tabla dinámica creada con la biblioteca JavaScript llamada Tabulator. También incluye una función de búsqueda que permite encontrar estudiantes fácilmente mediante un filtro.",
+        "first-project-button2":"Código",
+
+        "second-project-title":"Pagina de Lista de Tareas",
+        "second-project-description":"Esta página le permite agregar tareas pendientes a una lista, así como marcar aquellas que ya se han realizado como completadas o eliminarlas.",
+        "second-project-button2":"Código",
+
+        "third-project-title":"Pagina de Gestión de Contactos",
+        "third-project-description":"Esta aplicación permite una gestión efectiva de los contactos al permitir la inclusión de nuevos contactos, actualizar la información si es necesario, eliminar contactos innecesarios y finalmente ver la lista completa de todos ellos.",
+        "third-project-button2":"Código",
+
+        
+        "four-project-title":"Pagina de Gestión de Vehiculos",
+        "four-project-description":"Esta aplicación permite una gestión efectiva de los vehiculos al permitir la inclusión de nuevos vehiculos, actualizar la información si es necesario, eliminar vehiculos innecesarios y finalmente ver la lista completa de todos ellos.",
+        "four-project-button2":"Código"
+        
+    }
+}

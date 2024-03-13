@@ -1,0 +1,35 @@
+{
+    "profile":{
+        "rol": "BUSINESS COMPUTING",
+        "description": "Professional developer, passionate about web or desktop development and database management.Willing to put into practice all the skills acquired throughout my business computing career, as well as eager to learn new areas and techniques to expand knowledge."
+    },
+    "experience":{
+        
+        "firts-job-title": " WEB DEVELOPMENT  WITH WORDPRESS",
+        "firts-job-date": "December 2022 - june 2023",
+        "firts-job-description": "I offered my services as a Web Developer in the Growth Hacking company, where my role was based on the creation of web pages through the tools that WordPress provides us.",
+
+        "secod-job-title": " CIBERSECURITY ",
+        "second-job-date": "July 2023 - December 2023",
+        "second-job-description": "Used the Group Policy Management Console (GPMC) to manage and configure policies on objects.Used the tool called Tenable One for the correct management of vulnerabilities and the implementation of user and team privacy policies."
+    },
+    "projects":{
+        "first-project-title":"Student Management Page",
+        "first-project-description":"The student management page I developed simplifies adding, deleting, and updating new students to the system. In addition, it offers visualization of students using a pivot table created with the JavaScript library called Tabulator. It also includes a search function that allows you to find students easily using a filter.",
+        "first-project-button2":"Code",
+
+        "second-project-title":"Task List Page",
+        "second-project-description":"This page allows you to add pending tasks to a list, as well as mark those that have already been done as completed or delete them.",
+        "second-project-button2":"Code",
+
+        "third-project-title":"Contact Management Page",
+        "third-project-description":"This application allows for effective contact management by allowing the inclusion of new contacts, updating information if necessary, deleting unnecessary contacts and finally viewing the complete list of all of them.",
+        "third-project-button2":"Code",
+
+        
+        "four-project-title":"Vehicle Management Page",
+        "four-project-description":"This application allows for effective contact management by allowing the inclusion of new vehicles, updating information if necessary, deleting unnecessary vehicles and finally viewing the complete list of all of them.",
+        "four-project-button2":"Code"
+        
+    }
+}
